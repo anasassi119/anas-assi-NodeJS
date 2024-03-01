@@ -7,7 +7,7 @@ async function countWordsInFile(filePath) {
         return words.length;
     } catch (error) {
         console.error(`Error reading ${filePath}: ${error.message}`);
-        return 0; // 0 words for unreadable or nonexisting files
+        return 0; // return 0 for unreadable or nonexisting files
     }
 }
 
