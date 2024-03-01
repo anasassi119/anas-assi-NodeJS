@@ -11,6 +11,7 @@ async function countWordsInFile(filePath) {
     }
 }
 
+
 async function processFiles() {
     try {
         const config = require('./config.json');
